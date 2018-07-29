@@ -125,9 +125,9 @@ def play(board)
   winner_value = winner(board)
   if(won?(board))
     if(winner_value == "X")
-      puts ""
+      puts "Congratulations X!"
     else
-      puts ""
+      puts "Congratulations O!"
     end
   end
   if(draw?(board))
