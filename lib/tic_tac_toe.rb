@@ -121,16 +121,17 @@ end
 def play(board)
   while (!over?(board))
     turn(board)
-    winner_value = winner(board)
-    if(won?(board))
-      if(winner_value == "X")
-        puts "Congratulations X!"
-      elsif(winner(board) == "O")
-        puts "Congratulations 0!"
-      else
-        
-      end
+  end
+  winner_value = winner(board)
+  if(won?(board))
+    if(winner_value == "X")
+      puts ""
+    else
+      puts ""
     end
+  end
+  if(draw?(board))
+    puts ""
   end
 end
 
