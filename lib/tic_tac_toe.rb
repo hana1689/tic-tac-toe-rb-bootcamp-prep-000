@@ -125,6 +125,8 @@ def play(board)
       puts "Congratulations X!"
     elsif(winner(board) == "O")
       puts "Congratulations 0!"
+    else
+      
     end
   end
 end
