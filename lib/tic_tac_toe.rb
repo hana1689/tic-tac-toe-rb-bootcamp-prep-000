@@ -131,7 +131,7 @@ def play(board)
     end
   end
   if(draw?(board))
-    puts ""
+    puts "Cat's Game!"
   end
 end
 
