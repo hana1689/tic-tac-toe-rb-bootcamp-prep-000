@@ -123,13 +123,13 @@ def play(board)
     turn(board)
     winner_value = winner(board)
     if(won?(board))
-    if(winner(board) == "X")
-      puts "Congratulations X!"
-    elsif(winner(board) == "O")
-      puts "Congratulations 0!"
-    else
-      
-    end
+      if(winner(board) == "X")
+        puts "Congratulations X!"
+      elsif(winner(board) == "O")
+        puts "Congratulations 0!"
+      else
+        
+      end
     end
   end
 end
